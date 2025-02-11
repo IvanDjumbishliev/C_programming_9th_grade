@@ -1,0 +1,5 @@
+
+ gcc -c zad_4.c -o zad_4.o
+ ar rcs libm.a zad_4.o
+ gcc zad_4.c -L. -lm -o zad_4.exe
+ ./zad_4.exe

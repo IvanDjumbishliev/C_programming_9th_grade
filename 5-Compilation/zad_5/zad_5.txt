@@ -1,0 +1,4 @@
+ gcc -c maths.c -o maths.o
+ ar rcs libmaths.a -o maths.o
+  gcc main_5.c -L\Users\Ivan\desktop\9v_class\programming\exercise\12-11-24\zad_5 -lmaths -o main_5.exe
+  ./main_5.exe
